@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Blaka&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0097e6;
+  color: #c23616;
+  font: size 20px;
+}
+h1 {
+  font-size: 350%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Blaka", cursive;
+  word-spacing: 20px;
+}
+.banner {
+  text-align: center;
+  margin-top: 120px;
+  letter-spacing: 1px;
+}
+.num-guess {
+  /* margin-left: 42%; */
+  margin-top: 35px;
+  width: 150px;
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+}
+input:focus {
+  background-color: #c23616;
+  color: #fff;
+}
+.btn-check {
+  width: 200px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  /* margin: 20px 0 20px 620px; */
+  background-color: #c23616;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+.btn-check:hover {
+  background-color: #e84118;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn-again {
+  width: 200px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  /* margin: 0 0 20px 620px; */
+  background-color: #c23616;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+.success {
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-weight: bold;
+}
